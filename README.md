@@ -17,11 +17,11 @@ This function acts as a replacement for both `matplotlib.pyplot.plot(...)` and
 `matplotlib.plot.show()`. When you wish to do a plot using `darkPlot(...)` just type 
 
 ```
-    # assuming x and y are arrays ready to plot
-    import jupytertools
-    style = 'o' # choose your styling options from the pyplot format string options.
-    color = 'red' # Optional color argument, if left out color is white
-    jupytertools.darkPlot(x,y,style,color)
+# assuming x and y are arrays ready to plot
+import jupytertools
+style = 'o' # choose your styling options from the pyplot format string options.
+color = 'red' # Optional color argument, if left out color is white
+jupytertools.darkPlot(x,y,style,color)
 ```
 
 ### Dependencies
