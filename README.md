@@ -13,3 +13,16 @@ color of the frame, text, labels, and ticks of the plot.
         style   the style string passed to matplotlib.pyplot.plot(...)
         color   the color of the plot's trimmings, defaults to white.
 
+### Dependencies
+
+This package depends on the following Python packages in order to operate
+
+    matplotlib
+
+
+
+### Deployment
+
+Use `pip` to install this package with the following command.
+
+    pip install git+https://github.com/samuel-barton/jupytertools
