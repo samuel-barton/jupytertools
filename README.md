@@ -1,4 +1,7 @@
-Currently there is only one useful function in this collection. 
+# Useful Python Functions for Scientific Programming in Jupyter Notebooks
+
+
+## Make plots visible on dark themed notebooks
 
 The function is darkPlot(x,y,style,color). This function is used to make plotting with matplotlib
 on dark themes, see https://github.com/dunovank/jupyter-themes, usable by changing the color of 
