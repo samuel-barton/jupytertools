@@ -1,7 +1,7 @@
 
 from distutils.core import setup
 
-setup(name='JupyterTools',
+setup(name='plotting',
       version='1.0',
       description='Tools for Scientific Programming with Jupyter Notebooks',
       author='Samuel Barton',
