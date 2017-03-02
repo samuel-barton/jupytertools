@@ -10,8 +10,19 @@ color of the frame, text, labels, and ticks of the plot.
     The arguments to darkPlot(...) mean the following.
         x       the array of values to be plotted along the x-axis of the plot
         y       the array of values to be plotted along the y-axis of the plot
-        style   the style string passed to matplotlib.pyplot.plot(...)
+        style   the style string passed to matplotlib.pyplot.plot(...) see [here](http://matplotlib.org/api/markers_api.html) 
         color   the color of the plot's trimmings, defaults to white.
+
+This function acts as a replacement for both `matplotlib.pyplot.plot(...)` and 
+`matplotlib.plot.show()`. When you wish to do a plot using `darkPlot(...)` just type 
+
+```
+    # assuming x and y are arrays ready to plot
+    import jupytertools
+    style = 'o' # choose your styling options from the pyplot format string options.
+    color = 'red' # Optional color argument, if left out color is white
+    jupytertools.darkPlot(x,y,style,color)
+```
 
 ### Dependencies
 
