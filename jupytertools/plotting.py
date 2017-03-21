@@ -32,7 +32,6 @@ def darkFigure(fig):
     '''
     fig.patch.set_alpha(0.0)
     ax = fig.add_subplot(111)
-    ax.plot(x, y,style)
     ax.patch.set_alpha(0.0)
     ax.tick_params(axis='x', colors=color)
     ax.tick_params(axis='y', colors=color)
