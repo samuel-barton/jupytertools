@@ -25,7 +25,7 @@ def darkPlot(x,y,style,color='white'):
     plt.show()
     return
 
-def darkFigure(fig):
+def darkFigure(fig, color="white"):
     '''
         Make a matplotlib.pyplot figure be formatted correctly for Dark themed
         Jupyter Notebooks.
