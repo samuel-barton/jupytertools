@@ -2,7 +2,7 @@
 from distutils.core import setup
 
 setup(name='jupytertools',
-      version='1.1',
+      version='1.11',
       description='Tools for Scientific Programming with Jupyter Notebooks',
       author='Samuel Barton',
       author_email='samwisebarton@gmail.com',
