@@ -23,6 +23,7 @@ def darkPlot(x,y,style,color='white'):
     ax.spines['left'].set_color(color)
     ax.spines['right'].set_color(color)
     plt.show()
+    return
 
 def darkFigure(fig):
     '''
@@ -42,3 +43,4 @@ def darkFigure(fig):
     ax.spines['top'].set_color(color)
     ax.spines['left'].set_color(color)
     ax.spines['right'].set_color(color)
+    return
