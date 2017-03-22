@@ -22,7 +22,7 @@ This function acts as a replacement for both `matplotlib.pyplot.plot(...)` and
 import jupytertools
 style = 'o' # choose your styling options from the pyplot format string options.
 color = 'red' # Optional color argument, if left out color is white
-jupytertools.darkPlot(x,y,style,color)
+jupytertools.plotting.darkPlot(x,y,style,color)
 ```
 
 ### Dependencies
